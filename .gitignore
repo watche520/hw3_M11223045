@@ -1,0 +1,9 @@
+# Weights
+*.weights
+*.pth
+
+# Python cache
+__pycache__/
+
+# IPython checkpoints
+.ipynb_checkpoints

@@ -1,0 +1,13 @@
+# Images and labels direcotry should be relative to train.py
+TEST_DIR_IMAGES: '/content/Image_dataset/Test'
+TEST_DIR_LABELS: '/content/Image_dataset/Test_xml'
+
+
+# Class names.
+CLASSES: [
+    '__background__',
+    'container'
+]
+
+# Number of classes (object classes + 1 for background class in Faster RCNN).
+NC: 2
