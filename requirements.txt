@@ -1,14 +1,14 @@
 # Image processing and machine learning libraries
-opencv-python>=4.1.1.26
-Pillow
+opencv-python
+Pillow==9.5.0
 scikit-image
 scikit-learn
 numpy
 matplotlib
 
 # Deep learning libraries
-torch>=1.12.0
-torchvision>=0.13.0
+torch>=1.3
+torchvision>=0.3
 torchmetrics
 vision_transformers
 
@@ -16,10 +16,12 @@ vision_transformers
 PyYAML
 pandas
 protobuf<=3.20.1
+yacs
 
 # Training and model evaluation tools
 wandb
 tensorboard
+tensorboardX
 torchinfo
 
 # Object detection and tracking libraries
@@ -30,8 +32,9 @@ Vizer
 # Text recognition library
 pytesseract
 
-# Other
+# Other tools
 tqdm
 setuptools==59.5.0
 wget
 visdom
+six
