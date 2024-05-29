@@ -30,26 +30,26 @@ pip install -r requirements.txt
 ## 專案架構
 
 ```
-|--Issue-1: 議題一
-|  |--Faster_RCNN.ipynb: 訓練Faster RCNN模型
-|  |--OCR_&_Preprocess.ipynb: Tesseract-OCR實作與編號區域影像處理
-|  |--SSD.ipynb: SSD模型訓練及辨識
-|  |--YOLOv4_crop_img.ipynb: 使用YOLOv4和訓練好的模型切割影像
-|  |--YOLOv4_train.ipynb: 編譯Darknet環境、訓練YOLOv4模型
+|-- Issue-1: 議題一
+|   |-- Faster_RCNN.ipynb: 訓練Faster RCNN模型
+|   |-- OCR_&_Preprocess.ipynb: Tesseract-OCR實作與編號區域影像處理
+|   |-- SSD.ipynb: SSD模型訓練及辨識
+|   |-- YOLOv4_crop_img.ipynb: 使用YOLOv4和訓練好的模型切割影像
+|   |-- YOLOv4_train.ipynb: 編譯Darknet環境、訓練YOLOv4模型
 |
-|--Issue-2: 議題二
-|  |--影片資料集: 預設讀取影片及保存輸出影片目錄
-|  |  |...
-|  |--fastercnn: Faster RCNN套件
-|  |  |...
-|  |--yolo: yolo套件與相關函數
-|  |  |...
-|  |--faster_rcnn.ipynb: 使用Faster RCNN和Tesseract-OCR進行影片的編號辨識
-|  |--ocr.py: 供faster_rcnn.ipynb與yolo.ipynb共同引用的OCR套件，包含Tesseract-OCR實作與編號區域影像處理
-|  |--yolo.ipynb: 使用YOLOv4和Tesseract-OCR進行影片的編號辨識
+|-- Issue-2: 議題二
+|   |-- 影片資料集: 預設讀取影片及保存輸出影片目錄
+|   |   |...
+|   |-- fastercnn: Faster RCNN套件
+|   |   |...
+|   |-- yolo: yolo套件與相關函數
+|   |   |...
+|   |-- faster_rcnn.ipynb: 使用Faster RCNN和Tesseract-OCR進行影片的編號辨識
+|   |-- ocr.py: 供faster_rcnn.ipynb與yolo.ipynb共同引用的OCR套件，包含Tesseract-OCR實作與編號區域影像處理
+|   |-- yolo.ipynb: 使用YOLOv4和Tesseract-OCR進行影片的編號辨識
 |
-|--README.md
-|--requirements.txt: Python依賴套件列表
+|-- README.md
+|-- requirements.txt: Python依賴套件列表
 ```
 
 
